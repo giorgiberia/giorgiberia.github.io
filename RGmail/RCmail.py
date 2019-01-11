@@ -43,7 +43,7 @@ class RCmail:
 
 
 # -----------------------------------------------------------------------------
-url="https://giorgi1517.github.io/task.py"
+url="https://giorgi1517.github.io/files/task.py"
 p1 = RCmail()
 print(p1.is_downloadable(url))
 print(p1.get_filename_from_url(url))
