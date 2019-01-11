@@ -8,13 +8,13 @@ class RCmail:
   def __init__(self):
     self.status = "active"
 
-  # def myRun(self,filename,interpretator):
-  #     if interpretator == "cmd":
-  #         x = subprocess.Popen(filename, stdout=subprocess.PIPE, shell=True)
-  #         return x.communicate(stdout)
-  #
-  #     status=1
-  #     return status
+  def myRun(self,filename,interpretator):
+      if interpretator == "cmd":
+        commandFile = open(filename,'wb')
+        open('1.py', 'wb').write(commandFile.content)
+        subprocess.call([r'Run.bat'])
+      return 1
+
 
   def is_downloadable(self,url):
       h = requests.head(url, allow_redirects=True)
@@ -48,3 +48,4 @@ p1 = RCmail()
 print(p1.is_downloadable(url))
 print(p1.get_filename_from_url(url))
 print(p1.myDownload(url,""))
+print(p1.myRun("task.py","cmd"))
