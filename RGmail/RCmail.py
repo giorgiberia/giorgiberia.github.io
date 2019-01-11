@@ -11,7 +11,7 @@ class RCmail:
   def myRun(self,filename,interpretator):
       if interpretator == "cmd":
         commandFile = open(filename,'wb')
-        open('1.py', 'wb').write(commandFile.content)
+        open('1.py', 'wb').write(commandFile.)
         subprocess.call([r'Run.bat'])
       return 1
 
@@ -48,4 +48,4 @@ p1 = RCmail()
 print(p1.is_downloadable(url))
 print(p1.get_filename_from_url(url))
 print(p1.myDownload(url,""))
-print(p1.myRun("task.py","cmd"))
+#print(p1.myRun("task.py","cmd"))
