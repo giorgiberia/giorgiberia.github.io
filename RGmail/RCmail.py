@@ -47,4 +47,4 @@ url="https://giorgi1517.github.io/task.py"
 p1 = RCmail()
 print(p1.is_downloadable(url))
 print(p1.get_filename_from_url(url))
-print(p1.myDownload(url,"D:/"))
+print(p1.myDownload(url,""))
