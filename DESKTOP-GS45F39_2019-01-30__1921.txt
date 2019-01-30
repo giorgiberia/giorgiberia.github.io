@@ -1,0 +1,1 @@
+tqveni taski gaeshva shedegia ['.idea', '1.bat', '1.py', '2.py', 'concept.jpg', 'morse.py', 'RCmail.py', 'Run.bat', 'Screenshot.png', 'send_screen.py', 'task.py', 'text.docx']
