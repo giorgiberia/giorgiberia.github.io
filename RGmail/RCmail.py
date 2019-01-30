@@ -1,7 +1,4 @@
-import re
-import os
 import subprocess
-from sys import stdout
 import requests
 from github import Github
 from datetime import datetime
@@ -17,6 +14,8 @@ class RCmail:
   def __init__(self):
     self.status = "active"
 
+
+
   def myRun(self,filename,interpretator):
       if interpretator == "cmd":
         with open(filename,"rb") as f:
@@ -24,15 +23,19 @@ class RCmail:
                 for line in f:
                     f1.write(line)
         subprocess.call([r'Run.bat'])
+
+
+
+
           #linux
 
-        f=open("res.txt","w+")
-        f.write("tqveni taski gaeshva")
-        f.close()
+        # f=open("res.txt","w+")
+        # f.write("tqveni taski gaeshva")
+        # f.close()
 
       return 1
 
-  def send_conf_email(self,reason="",link=""):
+  def send_conf_email(self,reason="",link=''):
       msg = MIMEMultipart()
       if reason == "error":
           msg['Subject'] = 'Task Has not been completed'
@@ -49,6 +52,8 @@ class RCmail:
           msg['Subject'] = 'Task Has successfully completed'
           msg['From'] = 'beria.giorgi1@gmail.com'
           msg['To'] = 'beria.giorgi1@gmail.com'
+          print("9")
+          print(link)
           text = MIMEText("Your task successfully completed. To See result please click "+link)
           msg.attach(text)
           s = smtplib.SMTP_SSL("smtp.gmail.com", 465)
@@ -59,17 +64,20 @@ class RCmail:
 
 
 
-  def myUpload(self,pc_name):
+  def myUpload(self,pc_name,filename):
       g = Github("giorgi1517","zmuki1256")
-      name=pc_name+"*"+str(datetime.now().date())+"__"+str(datetime.now().time().hour)+str(datetime.now().time().minute)+".txt"
+      name=pc_name+"_"+str(datetime.now().date())+"__"+str(datetime.now().time().hour)+str(datetime.now().time().minute)+".txt"
       repo = g.get_repo("giorgi1517/giorgi1517.github.io")
       os.rename('res.txt',name)
+
+      #content of another file by request
       with open(name, 'r') as myfile:
         data=myfile.read().replace('\n', '')
       repo.create_file(name, "Result_of_task", data, branch="master")
       os.remove(name)
-      link="<a href=\""+"https://giorgi1517.github.io/"+name+"\">here.</a>"
-      self.send_conf_email(link)
+      test_link="<a href='"+"https://giorgi1517.github.io/"+name+"'>here.</a>"
+
+      self.send_conf_email(link=test_link)
 
       #
       # repo = g.get_repo("giorgi1517/giorgi1517.github.io")
