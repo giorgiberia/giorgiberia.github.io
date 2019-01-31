@@ -24,9 +24,6 @@ class RCmail:
                     f1.write(line)
         subprocess.call([r'Run.bat'])
 
-
-
-
           #linux
 
         # f=open("res.txt","w+")
