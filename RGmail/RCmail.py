@@ -61,7 +61,7 @@ class RCmail:
 
 
 
-  def myUpload(self,pc_name,filename):
+  def myUpload(self,pc_name):
       g = Github("giorgi1517","zmuki1256")
       name=pc_name+"_"+str(datetime.now().date())+"__"+str(datetime.now().time().hour)+str(datetime.now().time().minute)+".txt"
       repo = g.get_repo("giorgi1517/giorgi1517.github.io")
