@@ -95,7 +95,7 @@ ul, ol {
 }
 
 ul .dropdown-menu li a{
-color: #0b0f28;
+color: #0b0f28 !important;
 }
 
 .main-btn {
