@@ -35,7 +35,7 @@
 <body>
 
 	<!-- Header -->
-	<header id="header">
+	<header id="header" class="transparent-navbar">
 		<!-- container -->
 		<div class="container">
 			<!-- navbar header -->
@@ -60,39 +60,54 @@
 			<!-- Navigation -->
 			<nav id="nav">
 				<ul class="main-nav nav navbar-nav navbar-right">
-					<li><a href="index.html#home">Home</a></li>
-					<li><a href="index.html#about">About</a></li>
-					<li><a href="index.html#schedule">Schedule</a></li>
-					<li><a href="index.html#speakers">Speakers</a></li>
-					<li><a href="index.html#sponsors">Sponsors</a></li>
-					<li><a href="index.html#contact">Contact</a></li>
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="#home">Главная</a></li>
+				
+		<li class="dropdown">
+                <a href="#" class="dropdown-toggle " data-toggle="dropdown"  aria-haspopup="true" aria-expanded="true">О конференции<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">требования к оформлению статей</a></li>
+                  <li><a href="#">оргкомитет</a></li>
+				</ul></li>
+					<li><a href="#schedule">Программа</a></li>
+					<li><a href="#speakers">Спикеры</a></li>
+					<li><a href="#sponsors">Партнеры</a></li>
+					<li><a href="#contact">Контакты</a></li>
+					<li><a href="blog.html">Новости</a></li>
 				</ul>
 			</nav>
 			<!-- /Navigation -->
-
 		</div>
 		<!-- /container -->
 	</header>
 	<!-- /Header -->
 
 	<!-- Page Header -->
-	<div id="page-wrapper" class="section">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- wrapper content -->
-				<div class="col-md-12">
-					<div class="page-wrapper-content">
-						<h1>Regular Page</h1>
+	<div id="home">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url(./img/background01.jpg)" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- home content -->
+					<div class="col-md-8 col-md-offset-2">
+						<div class="home-content">
+							<h1>Язык для специальных целей:<br>система, функции, среда</h1>
+							<h4 class="lead"> Международная научно-практическая конференция</h4>
+							<a href="#" class="main-btn">Зарегистрироваться</a>
+						</div>
 					</div>
+					<!-- /home content -->
 				</div>
-				<!-- /wrapper content -->
+				<!-- /row -->
 			</div>
-			<!-- /row -->
+			<!-- /container -->
 		</div>
-		<!-- /container -->
+		<!-- /home wrapper -->
 	</div>
 	<!-- /Page Header -->
 
