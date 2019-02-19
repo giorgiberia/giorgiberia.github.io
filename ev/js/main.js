@@ -7,6 +7,21 @@
 		offset: $(window).height() / 2
 	});
 
+	$('.dropdown-toggle').click(function(e) {
+	  if ($(document).width() > 768) {
+	    e.preventDefault();
+
+	    var url = $(this).attr('href');
+
+	       
+	    if (url !== '#') {
+	    
+	      window.location.href = url;
+	    }
+
+	  }
+	});
+
 	// Mobile nav toggle
 	$('.navbar-toggle').on('click',function() {
 		$('.main-nav').toggleClass('open');
