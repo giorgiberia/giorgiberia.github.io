@@ -99,7 +99,7 @@ ul .dropdown-menu li a {
 }
 
 ul .dropdown-menu li a:hover{
-    color: #C7212E ;
+    color: #C7212E !important;
 }
 
 .main-btn {
