@@ -93,6 +93,9 @@ ul, ol {
     display: block;
   }
 }
+.dropdown-menu .li .a{
+color: #0b0f28;
+}
 
 .main-btn {
   display: inline-block;
