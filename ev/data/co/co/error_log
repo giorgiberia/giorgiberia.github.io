@@ -1,7 +1,0 @@
-[24-Jun-2018 18:30:28 Asia/Tbilisi] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in /otherhome/examsge/public_html/co/application/controllers/Main.php on line 336
-[26-Jun-2018 20:20:43 Asia/Tbilisi] PHP Fatal error:  Call to undefined method Main_Model::get_programs_sylabus_id() in /otherhome/examsge/public_html/co/application/controllers/Main.php on line 23
-[26-Jun-2018 20:29:33 Asia/Tbilisi] PHP Fatal error:  Call to undefined function tostring() in /otherhome/examsge/public_html/co/application/controllers/Main.php on line 24
-[26-Jun-2018 20:29:55 Asia/Tbilisi] PHP Fatal error:  Call to undefined function tostring() in /otherhome/examsge/public_html/co/application/controllers/Main.php on line 24
-[26-Jun-2018 20:48:33 Asia/Tbilisi] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /otherhome/examsge/public_html/co/application/controllers/Main.php on line 353
-[26-Jun-2018 20:48:52 Asia/Tbilisi] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /otherhome/examsge/public_html/co/application/controllers/Main.php on line 354
-[26-Jun-2018 21:46:13 Asia/Tbilisi] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /otherhome/examsge/public_html/co/application/controllers/Main.php on line 367
