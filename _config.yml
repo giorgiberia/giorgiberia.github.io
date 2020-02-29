@@ -21,9 +21,7 @@
 title: Gio's Blog
 email: beria.giorgi1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Love programming ? see what i do every day. my projects explanations and some new frameworks staff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://giorgiberia.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BeriaGiorgi
@@ -33,6 +31,7 @@ github_username:  giorgiberia
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +52,19 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-123-456          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
+    url: matomo.example.com # Required - url to Matomo installation without trailing /
+    siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
+
+  Piwik:                    # Add, if you want to track with Piwik
+    url: piwik.example.com  # Required - url to Piwik installation without trailing /
+    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+  MPulse:                   # Add if you want to track performance with mPulse
+    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
