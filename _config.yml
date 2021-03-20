@@ -21,7 +21,9 @@
 title: Gio's Blog
 email: beria.giorgi1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Love programming ? see what i do every day. my projects explanations and some new frameworks staff.
+  ჩვენ ვცდილობთ უკეთესი პლანეტა დავუტოვოთ მომავალ თაობას, მაგრამ არ ვფიქრობთ იმაზე, იქნებ უკეთესი მომავალი თაობა დაგვეტოვებინა პლანეტისთვის.
+  მოკლედ დავწერ. შევეცდები მომავალი ან ახლანდელი თაობის გაუმჯობესებაში რაღაც წვლილი მაინც შევიტანო და რაც ვიცი სხვას გადავცე.
+  სამსახურის შემდეგ შემიძლია აგიხნსათ ყველაფერი ჩემს პროფესიაზე პროგრამირებაზე. გასწავლოთ რაც ვიცი და ვისწავლოთ უფრო მეტი ერთად!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://giorgiberia.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BeriaGiorgi
