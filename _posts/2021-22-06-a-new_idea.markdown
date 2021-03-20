@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A day with many events!"
+title:  "ახალი იდეა"
 date:   2020-06-22 21:58:41 +0400
 categories: personal update
 ---
