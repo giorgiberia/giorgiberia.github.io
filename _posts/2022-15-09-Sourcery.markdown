@@ -28,50 +28,6 @@ def is_even(num):
 
 {% endhighlight %}
 
-{% highlight Python %}
-# Before. A harder example
-
-def get_booking_by_id(booking_id):
-    if not HotelReservations.objects.filter(
-        id=booking_id
-    ).exists():
-        return JsonResponse(
-            {
-                "code": -1,
-                "msg": gettext(
-                    "booking with specified id not found"
-                ),
-                "result": [],
-            },
-            safe=False,
-        )
-    else:
-        return get_one_booking_details_by_id(
-            request, booking_id, customer_id, flat_id
-        )
-
-# Suggestion -> Swap if/else branches to remove negation
-# After
-
-def get_booking_by_id(booking_id):
-    return (
-        get_one_booking_details_by_id(request, booking_id, customer_id, flat_id)
-        if HotelReservations.objects.filter(
-            id=booking_id, customerId=customer_id
-            ).exists()
-        else JsonResponse(
-            {
-                "code": -1,
-                "msg": gettext(
-                    "booking with specified id not found"
-                ),
-                "result": [],
-            },
-            safe=False,
-            )
-    )
-    
-{% endhighlight %}
 
 
 it can also scan for low code quality and suggest to extract methods, remove unused variables, etc.
