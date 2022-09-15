@@ -5,12 +5,12 @@ date:   2022-09-15 21:58:41 +0400
 categories: blog
 ---
 
-Somewhere a year ago I stumped upon the tool caled Sourcery. 
+Somewhere a year ago I stumped upon the tool called Sourcery. 
 It is a great tool for refactoring your code.
 It can be used as a plugin for PyCharm, Vs Code.
 
 look at the action below
-[image](/img/blog/sourcery_example.gif)
+![Sourcery gif](/img/blog/sourcery_example.gif)
 
 
 {% highlight Python %}
@@ -26,4 +26,15 @@ def is_even(num):
     return num % 2 == 0
 
 {% endhighlight %}
+
+they have a lot of refactoring options, and you can even create your own refactoring rules.
+they have 3 tiers
+- Free
+- Pro
+- Team
+
+even the free tier is great.
+
+you can check it out here [Sourcery](https://sourcery.ai/)
+
 
