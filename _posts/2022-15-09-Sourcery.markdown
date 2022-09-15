@@ -11,7 +11,7 @@ It is a great tool for refactoring your code.
 It can be used as a plugin for PyCharm, Vs Code.
 
 look at the action below
-![Sourcery gif](/img/blog/sourcery_demo.gif)
+![Sourcery gif](/img/blog/sourcery-demo.gif)
 
 
 {% highlight Python %}
@@ -76,7 +76,6 @@ def get_booking_by_id(booking_id):
 
 it can also scan for low code quality and suggest to extract methods, remove unused variables, etc.
 
-{% highlight Python %}
 
 they have a lot of refactoring options, and you can even create your own refactoring rules.
 they have 3 tiers
