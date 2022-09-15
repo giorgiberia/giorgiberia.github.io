@@ -11,7 +11,7 @@ It is a great tool for refactoring your code.
 It can be used as a plugin for PyCharm, Vs Code.
 
 look at the action below
-![Sourcery gif](/img/blog/sourcery_example.gif)
+![Sourcery gif](/img/blog/sourcery_demo.gif)
 
 
 {% highlight Python %}
