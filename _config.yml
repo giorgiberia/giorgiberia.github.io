@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -21,7 +21,7 @@
 title: Gio's Blog
 email: beria.giorgi1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Love programming ? see what i do every day. my projects explanations and some new frameworks staff.
+  I will be posting about my experience in software development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://giorgiberia.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BeriaGiorgi
@@ -31,7 +31,7 @@ github_username:  giorgiberia
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-analytics
+#  - jekyll-analytics
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,18 +53,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-123-456          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-
-  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
-    url: matomo.example.com # Required - url to Matomo installation without trailing /
-    siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
-
-  Piwik:                    # Add, if you want to track with Piwik
-    url: piwik.example.com  # Required - url to Piwik installation without trailing /
-    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
-
-  MPulse:                   # Add if you want to track performance with mPulse
-    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
