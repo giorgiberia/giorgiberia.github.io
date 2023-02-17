@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Celery integration to Django working example"
-date:   2023-15-02 15:58:41 +0400
+date:   2023-02-15 15:58:41 +0400
 categories: blog
 ---
 # Celery integration to Django working example
