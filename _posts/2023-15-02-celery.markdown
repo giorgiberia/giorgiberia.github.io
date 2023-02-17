@@ -7,7 +7,7 @@ categories: blog
 # Celery integration to Django working example
 
 I won't explain the basics of Celery, but I will show you how to integrate it to Django and how to use it.
-for more info with more theoretical information you can use this [Real Python Article](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
+for more theoretical information, you can use this [Real Python Article](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 
 let's consider that you have a Django project with name `Auth` and a simple app called `authApp` and you want to do something asynchronously.
 
