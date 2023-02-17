@@ -39,7 +39,7 @@ sudo systemctl start redis
 sudo systemctl status redis
 {% endhighlight %}
 It should look like this:
-![redis_status.png](../img/redis_status.png)
+![redis_status.png](/img/blog/redis_status.png)
 
 next we need to install the python client for Redis
 ### 1.4 Install Redis python client
@@ -124,7 +124,7 @@ celery -A Auth worker -l info
 - `worker` tells celery to run a worker
 
 you should see something like this:
-![celery_worker.png](../img/celery_worker.png)
+![celery_worker.png](/img/blog/celery_worker.png)
 
 Celery displays all tasks that it discovered in the [tasks] section:
 
@@ -146,10 +146,10 @@ In my case, resetpass endpoint sends email to the user with a token to reset pas
 let't use this simple for loop to send 10 requests to this endpoint and see if celery is working or not.
 
 as you can see django received all requests and returned a response to the user immediately. In 1 second.
-![django_log.png](../img/django_log.png)
+![django_log.png](/img/blog/django_log.png)
 
 But celery is still working on sending emails to the user.
-![celery_log.png](../img/celery_log.png)
+![celery_log.png](/img/blog/celery_log.png)
 
 celery also received all tasks fast but took a few seconds more to finish all of them.
 
