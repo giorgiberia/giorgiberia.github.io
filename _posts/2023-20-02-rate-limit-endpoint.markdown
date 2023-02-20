@@ -1,0 +1,166 @@
+---
+layout: post
+title: "Rate limit DRF endpoint wth redis working example"
+date:   2023-02-20 15:58:41 +0400
+categories: blog
+---
+# Celery integration to Django working example
+
+I won't explain the basics of Celery, but I will show you how to integrate it to Django and how to use it.
+for more theoretical information, you can use this [Real Python Article](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
+
+let's consider that you have a Django project with name `Auth` and a simple app called `authApp` and you want to do something asynchronously.
+
+### 1.1 Install celery
+activate your virtual environment and install celery
+
+{% highlight Python %}
+pip install celery
+{% endhighlight %}
+
+celery requires message broker to work, so you need to install one of the following:
+- RabbitMQ
+- Redis
+- Amazon SQS
+
+for simplicity, let's install Redis as Celery Broker and Database Back End
+I will use Rocky Linux 9 for this example. 
+### 1.2 Install Redis service
+{% highlight Shell %}
+sudo yum install redis
+{% endhighlight %}
+
+### 1.3 Enable, Start and check status of Redis
+{% highlight Shell %}
+sudo systemctl enable redis
+
+sudo systemctl start redis
+
+sudo systemctl status redis
+{% endhighlight %}
+It should look like this:
+![redis_status.png](/img/blog/redis_status.png)
+
+next we need to install the python client for Redis
+### 1.4 Install Redis python client
+{% highlight Python %}
+pip install redis
+{% endhighlight %}
+
+### 1.5 Add Celery to Your Django Project
+in your Django project settings.py file add the following lines:
+{% highlight Python %}
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+{% endhighlight %}
+
+In folder containing settings.py file, create a new file called `celery_module.py`
+Article mentioned above suggested `celery` as a name for this file, but I had import error saying file is importing itself, so I used `celery_module` instead.
+{% highlight Python %}
+import os
+from celery import Celery
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Auth.settings")
+app = Celery("authApp")
+app.config_from_object("django.conf:settings", namespace="CELERY")
+app.autodiscover_tasks()
+{% endhighlight %}
+in the above code, we are letting celery know where to search for tasks and creating a Celery instance.
+
+At this point, you’re nearly done integrating Celery into your web app. 
+create `__init__.py` file in the same folder as `celery_module.py` and add the following:
+{% highlight Python %}
+from .celery_module import app as auth_celery_app
+__all__ = ("auth_celery_app",)
+{% endhighlight %}
+`__all__` loads your Celery app when Django starts.
+
+
+### 1.6 Create a task
+in your Django app in my case `authApp`, create a new file called `tasks.py`
+and put the function that you want to run asynchronously in Celery.
+{% highlight Python %}
+from celery import shared_task
+from django.core.mail import EmailMultiAlternatives
+
+@shared_task
+def SendMail(email,template,lang,token=""):
+    """
+    sends email with specified template and lang
+    """
+    subject, from_email, to = "subject", "from@email.com", email
+    text_content = ""
+    html = open(f"Authapp/templates/{lang}/{template}", "r").read()
+    html = html.replace("{TOKEN}", token)
+    msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+    msg.attach_alternative(html, "text/html")
+    msg.send()
+    print("sending mail")
+    return True
+{% endhighlight %}
+
+
+To transform function into a Celery task, all you need to do is decorate it with @shared_task, which you import from celery:
+
+now you can call this function from anywhere in your project, for example in your views.py file:
+{% highlight Python %}
+from authApp.tasks import SendMail
+
+SendMail.delay(email, "forgot-tokenized.html", "en", token)
+{% endhighlight %}
+
+
+you should add a delay method to the end of the function name.
+This will make the function run asynchronously in Celery
+django will immediately return a response to the user
+and celery will run the function in the background
+
+
+### 1.7 Run Celery worker 
+{% highlight Shell %}
+celery -A Auth worker -l info
+{% endhighlight %}
+- `-A Auth` tells celery where to find the celery app
+- `worker` tells celery to run a worker
+
+you should see something like this:
+![celery_worker.png](/img/blog/celery_worker.png)
+
+Celery displays all tasks that it discovered in the [tasks] section:
+
+
+### 1.8 Test Functionality
+let's test our function by sending mail to ourselves
+{% highlight Python %}
+
+request_count = 10
+url = "https://endpoint:8000/resetpass/"
+payload = json.dumps({"personalId": "62002116123"})
+for _ in range(request_count):
+    headers = {"Content-Type": "application/json"}
+    response = requests.request("POST", url, headers=headers, data=payload)
+
+{% endhighlight %}
+
+In my case, resetpass endpoint sends email to the user with a token to reset password.
+let't use this simple for loop to send 10 requests to this endpoint and see if celery is working or not.
+
+as you can see django received all requests and returned a response to the user immediately. In 1 second.
+![django_log.png](/img/blog/django_log.png)
+
+But celery is still working on sending emails to the user.
+![celery_log.png](/img/blog/celery_log.png)
+
+celery also received all tasks fast but took a few seconds more to finish all of them.
+
+### 1.9 Conclusion
+Celery is a great tool to use in your Django project to do some tasks asynchronously.
+This is a very simple example, but you can use it to do more complex tasks like sending emails, processing images, etc.
+Even sending email can cause a lot of load on your app when you have a lot of users, so it's better to use celery to do this task asynchronously.
+
+I hope this article was helpful to you.
+
+
+
+
+
