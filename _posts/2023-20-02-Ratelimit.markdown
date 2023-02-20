@@ -83,7 +83,6 @@ pip install django-redis
 
 
 ### 8 Test Functionality
-let's test our function by sending mail to ourselves
 {% highlight Python %}
 
 request_count = 101
