@@ -36,7 +36,7 @@ It should look like this:
 
 next, we need to install the python client for Redis
 
-### 1 Install Redis python client
+### 3 Install Redis python client
 
 {% highlight Python %}
 pip install redis
@@ -44,7 +44,7 @@ pip install redis
 
 This time we are not linked to a framework, you can use this guide for any framework you use.
 
-### 2 put the following code in your project
+### 4 put the following code in your project
 
 {% highlight Python %}
 
@@ -73,7 +73,7 @@ each successful request, the TAT is increased by a small amount.
 
 if users make requests faster than the TAT, they will be rate limited.
 
-### 3 use it in your project
+### 5 use it in your project
 
 in my case, I had too many auth attempts from the same user, so I used this function to rate limit the login endpoint.
 
@@ -92,7 +92,7 @@ in my case, I had too many auth attempts from the same user, so I used this func
 
 {% endhighlight %}
 
-### 4 Test Functionality
+### 6 Test Functionality
 
 {% highlight Python %}
 
@@ -115,7 +115,7 @@ when we reach the limit, we respond with a 429 status code:
 As you can see, when we reach the limit, requests are denied. But every some time when current time catches up to the
 TAT more requests can be made.
 
-### 5 Conclusion
+### 7 Conclusion
 It turns out this method is very memory efficient since it only needs to store a few variables to do this.
 
 
