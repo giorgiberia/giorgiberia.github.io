@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rate limit DRF endpoint wth redis working example"
+title: "Rate limit DRF endpoint with redis working example"
 date:   2023-02-20 15:58:41 +0400
 categories: blog
 ---

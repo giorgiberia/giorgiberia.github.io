@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rate limit Api endpoint wth redis 'GCRA' algorithm working example"
+title: "Rate limit Api endpoint with redis 'GCRA' algorithm working example"
 date:   2023-02-23 10:58:41 +0400
 categories: blog
 ---
