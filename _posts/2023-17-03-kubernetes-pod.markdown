@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kubernetes Pod Autoscaling with HPA Working Example"
-date:   2023-03-18 10:58:41 +0400
+date:   2023-03-17 10:58:41 +0400
 categories: blog
 ---
 
