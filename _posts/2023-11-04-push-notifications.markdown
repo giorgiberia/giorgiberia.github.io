@@ -130,8 +130,8 @@ this is the result in my case.
 
 
 ### 6 Important Tip
-While you are using Expo go to look at your notifications. App Icon and App Name will be Expo go.
-when you publish your app, you will see your app name and icon.
+While you are using Expo go to look at your notifications. The app Icon and App Name will be Expo Go. when you publish your app, you will see your app name and icon.
+Also, mobile devices should have permissions enabled for push notifications.
 
 
 ### 7 Conclusion
