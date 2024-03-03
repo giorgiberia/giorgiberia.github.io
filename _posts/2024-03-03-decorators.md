@@ -29,7 +29,7 @@ I could just point them to the method.
 So why I decided to describe parameters with tuple of a type and required string?
 Because I wanted to validate types for not only the required fields but also for the optional ones.
 
-let's see how this decorator is implemented.
+Let's see how this decorator is implemented.
 
 {% highlight Python %}
 
@@ -91,14 +91,28 @@ let's see how this decorator is implemented.
 
 {% endhighlight %}
 
-at first, we define a decorator function that takes expected_params as a parameter.
+At first, we define a decorator function that takes expected_params as a parameter.
 
-we loop over expected_params and check if the parameter is present in the request,
+We loop over expected_params and check if the parameter is present in the request,
 if it is, we check if it has the expected type, if not, we return a response with an error message.
 
-if the parameter is not present in the request, but it is required, we return a response with an error message.
+If the parameter is not present in the request, but it is required, we return a response with an error message.
 
-after that, we loop over all the parameters in the request and add them to the parsed_params even if they are not present in expected_params.
-this way, we do not lose any data that was sent to the endpoint.
+After that,
+we loop over all the parameters in the request
+and add them to the parsed_params even if they are not present in expected_params.
+This way, we do not lose any data that was sent to the endpoint.
 
-finally, we pass the parsed_params to the original view function.
+Finally, we pass the parsed_params to the original view function.
+
+So if I send for example "type" as an integer, this is what the response looks like
+
+{% highlight Shell %}
+
+    {
+        "code": -1,
+        "msg": "Invalid type for parameter: type, expected str ",
+        "result": [],
+        "error": "INVALID_PARAMETER_TYPE"
+    }
+{% endhighlight %}
