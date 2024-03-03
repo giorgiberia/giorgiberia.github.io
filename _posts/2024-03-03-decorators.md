@@ -86,7 +86,8 @@ let's see how this decorator is implemented.
             return wrapped_view
     
         return decorator
-{% highlight Python %}
+
+{% endhighlight %}
 
 at first, we define a decorator function that takes expected_params as a parameter.
 
