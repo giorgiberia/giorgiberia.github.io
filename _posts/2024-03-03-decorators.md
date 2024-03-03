@@ -4,8 +4,12 @@ title: "Using decorators to validate input data on django rest viewsets working 
 date:   2024-03-03 10:58:41 +0400
 categories: blog
 ---
-Recently, I stumbled upon a Real Python Podcast episode 192 where they were talking about decorators. 
-I always liked more control over stuff and used decorators rarely, but this episode made me look at them differently.
+
+Recently,
+I stumbled upon a [Real Python Podcast episode 192](https://realpython.com/podcasts/rpp/192/)
+where they were talking about decorators. 
+I always liked more control over stuff and used decorators rarely, 
+but this episode made me look at them differently.
 
 I wanted a clear picture of fields somewhere near with methods,
 so that when somebody asked me what to send to the endpoint,
@@ -27,7 +31,8 @@ I could just point them to the method.
 {% endhighlight %}
 
 So why I decided to describe parameters with tuple of a type and required string?
-Because I wanted to validate types for not only the required fields but also for the optional ones.
+Because I wanted to validate types for not only the required fields 
+but also for the optional ones.
 
 Let's see how this decorator is implemented.
 
@@ -36,7 +41,8 @@ Let's see how this decorator is implemented.
     def parse_request_params(**expected_params):
     """
     A decorator that parses and validates parameters from the request body.
-    :param expected_params: Dictionary of expected parameters and their types with requirement identifying string.
+    :param expected_params: Dictionary of expected parameters and their types
+    with requirement identifying string.
     :return: Decorator function.
     """
         def decorator(view_func):
@@ -61,7 +67,8 @@ Let's see how this decorator is implemented.
                             )
                             return respond_with_json(
                                 -1,
-                                f"Invalid type for parameter: {param_name}, expected {expected_type_name} ",
+                                f"Invalid type for parameter: {param_name},
+                                  expected {expected_type_name} ",
                                 extra={
                                     "error": INVALID_PARAMETER_TYPE,
                                 },
@@ -96,7 +103,8 @@ At first, we define a decorator function that takes expected_params as a paramet
 We loop over expected_params and check if the parameter is present in the request,
 if it is, we check if it has the expected type, if not, we return a response with an error message.
 
-If the parameter is not present in the request, but it is required, we return a response with an error message.
+If the parameter is not present in the request, but it is required, 
+we return a response with an error message.
 
 After that,
 we loop over all the parameters in the request
