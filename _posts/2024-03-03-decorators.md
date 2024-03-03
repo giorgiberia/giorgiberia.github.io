@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "using decorators to validate input data on django rest viewsets working example"
+title: "Using decorators to validate input data on django rest viewsets working example"
 date:   2024-03-03 10:58:41 +0400
 categories: blog
 ---
 Recently, I stumbled upon a Real Python Podcast episode 192 where they were talking about decorators. 
-I always liked more control over stuff and used decorators rarely, but thi episode made me look at them differently.
+I always liked more control over stuff and used decorators rarely, but this episode made me look at them differently.
 
-I wanted a clear picture of fields somewhere near with methods, so that when somebody asked me what to send to the endpoint, I could just point them to the method. 
+I wanted a clear picture of fields somewhere near with methods,
+so that when somebody asked me what to send to the endpoint,
+I could just point them to the method. 
 {% highlight Python %}
 
     @parse_request_params(
@@ -24,7 +26,7 @@ I wanted a clear picture of fields somewhere near with methods, so that when som
     """
 {% endhighlight %}
 
-So why I decided to describe parameters with tuple of type and required string?
+So why I decided to describe parameters with tuple of a type and required string?
 Because I wanted to validate types for not only the required fields but also for the optional ones.
 
 let's see how this decorator is implemented.
@@ -97,6 +99,6 @@ if it is, we check if it has the expected type, if not, we return a response wit
 if the parameter is not present in the request, but it is required, we return a response with an error message.
 
 after that, we loop over all the parameters in the request and add them to the parsed_params even if they are not present in expected_params.
-this way we do not loose any data that was sent to the endpoint.
+this way, we do not lose any data that was sent to the endpoint.
 
 finally, we pass the parsed_params to the original view function.
