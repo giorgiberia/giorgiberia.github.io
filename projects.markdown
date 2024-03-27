@@ -4,7 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-## Projects
 * Global Authorization System: Developed a centralized authentication solution using Django, ensuring secure access across all services. Incorporated JWT for authentication and Sentry for error monitoring.
 
 * Personal-Cabinet Management: Created a customer portal within Django, enabling access to agreements, financial data, and payments. Expanded functionality for flat owners, providing insights into rental income and door access statistics.
