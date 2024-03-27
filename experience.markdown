@@ -5,19 +5,19 @@ permalink: /experience/
 ---
 Proficient in a wide range of technologies and tools, including:
 
-Programming Languages: Python 3, JavaScript
-Web Frameworks: Django, Django Rest Framework, FastAPI, Vue.js
-Asynchronous Task Queues: Celery
-Message Brokers: RabbitMQ, Redis
-Data Formats: JSON, XML
-Markup and Styling: HTML, CSS
-Version Control: Git
-Continuous Integration/Continuous Deployment (CI/CD): GitLab CI/CD
-Operating Systems: Linux (Ubuntu, Debian, CentOS)
-Containerization and Orchestration: Docker, Kubernetes
-Database Management Systems: MySQL, PostgreSQL, Redis
-Integration Protocols: SOAP, REST
-RFID Technology: Implementation and Management
+* Programming Languages: Python 3, JavaScript
+* Web Frameworks: Django, Django Rest Framework, FastAPI, Vue.js
+* Asynchronous Task Queues: Celery
+* Message Brokers: RabbitMQ, Redis
+* Data Formats: JSON, XML
+* Markup and Styling: HTML, CSS
+* Version Control: Git
+* Continuous Integration/Continuous Deployment (CI/CD): GitLab CI/CD
+* Operating Systems: Linux (Ubuntu, Debian, CentOS)
+* Containerization and Orchestration: Docker, Kubernetes
+* Database Management Systems: MySQL, PostgreSQL, Redis
+* Integration Protocols: SOAP, REST
+* RFID Technology: Implementation and Management
 
 This skill set enables comprehensive development and deployment solutions, 
 emphasizing robust backend development with Django and FastAPI, 
