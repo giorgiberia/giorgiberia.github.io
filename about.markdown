@@ -4,11 +4,6 @@ title: About
 permalink: /about/
 ---
 
----
-layout: page
-title: About
-permalink: /about/
----
 
 This is Giorgi.
 A Dedicated Python Developer and DevOps Enthusiast from Batumi
