@@ -56,7 +56,7 @@ Implementation & Management
 
 ## 📜 Certifications
 
-- 🐍 [Python Programming Certification](https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&format=pdf&id=471)
+- 🐍 [Python Programming Certification]()
 - 🟨 [JavaScript Programming Certification](https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&format=pdf&id=469)
 -  [React.js Programming Certification]()
 ---
