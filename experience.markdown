@@ -6,7 +6,8 @@ permalink: /experience/
 
 # 💼 Experience
 
-I bring a solid track record of delivering backend-heavy, scalable, and production-ready solutions using a modern stack of technologies. My toolbelt includes:
+I bring a solid track record of delivering backend-heavy, scalable, and production-ready solutions using a modern stack
+of technologies. My toolbelt includes:
 
 ---
 
@@ -56,9 +57,10 @@ Implementation & Management
 
 ## 📜 Certifications
 
-- 🐍 [Python Programming Certification]()
-- 🟨 [JavaScript Programming Certification](https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&format=pdf&id=469)
--  [React.js Programming Certification]()
+- 🐍 [Python Programming Certification](https://giorgiberia.github.io/files/Python.pdf)
+- 🟨 [JavaScript Programming Certification](https://giorgiberia.github.io/files/JavaScript.pdf)
+- 🔁 [React.js Programming Certification](https://giorgiberia.github.io/files/React.pdf)
+
 ---
 
 ## 📬 Contact
