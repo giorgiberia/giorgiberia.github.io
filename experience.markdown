@@ -17,7 +17,7 @@ of technologies. My toolbelt includes:
 Python 3, JavaScript
 
 **🌐 Web Frameworks**  
-Django, Django Rest Framework, FastAPI, Vue.js
+Django, Django Rest Framework, FastAPI, Vue.js, React.js
 
 **⚙️ Asynchronous Task Queues & Messaging**  
 Celery · RabbitMQ · Redis
