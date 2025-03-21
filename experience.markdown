@@ -67,7 +67,9 @@ Implementation & Management
 
 Feel free to reach out for collaboration, project inquiries, or a casual dev chat:
 
-**📧 [beria.giorgi1@gmail.com](mailto:beria.giorgi1@gmail.com)**
+- 📧 [beria.giorgi1@gmail.com](mailto:beria.giorgi1@gmail.com)
+- 💬 [Telegram](https://t.me/beria_giorgi)
+- 👤 [Facebook](https://www.facebook.com/gio.beria)
 
 ---
 
