@@ -4,23 +4,72 @@ title: About
 permalink: /about/
 ---
 
+# 👋 About Me
 
-This is Giorgi.
-A Dedicated Python Developer and DevOps Enthusiast from Batumi
+**This is Giorgi.**  
+A Dedicated Python Developer & DevOps Enthusiast — proudly based in Batumi, Georgia 🇬🇪
 
-Welcome to my corner of the web! I'm Giorgi, a passionate Python software developer and burgeoning DevOps specialist based in the beautiful city of Batumi, Georgia. With a love for both coding and managing projects, I thrive in the dynamic world of technology, constantly seeking new challenges and opportunities for growth.
+---
 
-Originally hailing from Batumi, I've honed my skills over the years through hands-on experience and continuous learning. My journey into the realm of technology began with a fascination for programming languages, particularly Python, which has become my primary tool for crafting robust and scalable solutions.
+Welcome to my corner of the web! I'm Giorgi — a Python software developer with a growing focus on **DevOps** and a deep
+passion for building smart, scalable, and efficient systems.
 
-As a middle-level developer, I specialize in backend development using frameworks like Django, where I leverage the power of Python to create efficient and secure web applications. Additionally, my recent foray into DevOps has allowed me to delve deeper into areas such as containerization with Kubernetes, enhancing my ability to streamline deployment processes and optimize system performance.
+### 🧠 What I Do
 
-Beyond the realm of code, I'm an avid enthusiast of table tennis and billiards, finding solace in the strategic and competitive nature of these sports. When I'm not immersed in lines of code or perfecting my serve, you'll often find me exploring new technologies, sharing insights with fellow developers, or spending quality time with my brilliant wife, whose intellect and support inspire me every day.
+- 🐍 **Python Development** – with a strong focus on **backend** using Django
+- ☸️ **DevOps Practices** – especially **Docker** & **Kubernetes** for smoother deployments
+- 🔄 **Automation & APIs** – because life’s too short to do things manually
+- 🛠️ **Problem-Solving** – because code is just puzzle-solving with coffee
 
+I'm a **mid-level developer** with hands-on experience, self-taught grit, and an unshakable curiosity. My mission? Build
+clean, maintainable systems that work like magic — but are built like clockwork.
 
-In my professional journey, I aspire to not only deepen my expertise in Python and DevOps but also to make meaningful contributions to projects that drive innovation and positive change. Alongside my career ambitions, I'm also working towards personal milestones, such as obtaining my driving license, starting a family, and securing a new home for my growing family.
+---
 
-Thank you for taking the time to learn a bit about me. Whether you're a fellow developer, a potential collaborator, or simply curious about the world of technology, I'm excited to connect and explore the endless possibilities that lie ahead. Let's embark on this journey together, one line of code at a time.
+### 🧗‍♂️ My Journey
 
+I began my tech path out of sheer curiosity — what started as Python scripts soon became full-scale web apps, DevOps
+pipelines, and even some production-grade bots. Over time, I moved from just writing code to **thinking in systems**,
+diving deep into architecture, cloud, and infrastructure optimization.
 
-## Contact
-You can reach me at [beria.giorgi1@gmail.com]()
+Some technologies I’m actively working with:
+
+- Django / DRF, Celery
+- PostgreSQL,Mysql,Redis
+- Docker, Kubernetes
+- GitHub Actions, CI/CD
+- Nginx, systemd, Ubuntu servers
+- Telegram bots & Chrome extensions
+- And a **daily obsession with writing better code**
+
+---
+
+### 🧩 A Bit More Human
+
+When I’m not neck-deep in code or YAML configs, you’ll find me:
+
+- 🏓 Beating friends in **table tennis**
+- 🎱 Calculating angles in **billiards**
+- 💡 Exploring new tech stacks just for fun
+- ❤️ Spending time with my **brilliant wife**
+
+I believe in continuous growth — both professionally and personally. I'm building a future I can be proud of — with
+clean code, shared knowledge, and meaningful work.
+
+---
+
+### 📬 Let’s Connect
+
+Whether you're looking to **collaborate**, need help on a project, or just want to geek out over Python or DevOps, feel
+free to reach out:
+
+- 📧 [beria.giorgi1@gmail.com](mailto:beria.giorgi1@gmail.com)
+- 💬 [Telegram](https://t.me/beria_giorgi)
+- 👤 [Facebook](https://www.facebook.com/gio.beria)
+
+---
+
+> _“Code is craft. Systems are art. Build both like they matter.”_
+
+Let’s create something great — one deploy at a time. 🚀
+

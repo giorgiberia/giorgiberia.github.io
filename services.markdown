@@ -4,142 +4,149 @@ title: Services
 permalink: /services/
 ---
 
-# Services
+# 🚀 Services
 
-Welcome to My Services page, where cutting-edge technology meets innovation. I specialize in Python development, DevOps
-solutions, and automation to help businesses streamline operations, optimize performance, and scale efficiently.
-
----
-
-## Website Optimization & Performance Tuning
-
-Enhance your website's speed, SEO, and user experience with best-in-class performance optimizations.
-
-✔️ Database and code optimizations – **150 ₾**  
-✔️ Caching strategies (Redis, Memcached) – **100 ₾**  
-✔️ Lazy loading & frontend performance tuning – **100 ₾**  
-✔️ Image compression & optimization – **80 ₾**  
-✔️ CDN setup & integration – **120 ₾**  
- **Full package starting from 250 ₾**
+Welcome to the **Services** page — where innovation meets execution.  
+I provide expert solutions in **Python development**, **DevOps**, and **automation**, helping businesses scale faster,
+operate smoother, and stay ahead of the curve.
 
 ---
 
-## System Integration & API Development
+## ⚡ Website Optimization & Performance Tuning
 
-Seamlessly connect applications and automate data exchange with secure, scalable APIs.
+Supercharge your website's performance, SEO, and overall experience.
 
-✔️ Small REST API development – **250 ₾**  
-✔️ GraphQL API development – **250 ₾**  
-✔️ Third-party API integrations (Stripe, PayPal, Twilio) – **200 ₾**  
-✔️ Security & authentication implementation – **150 ₾**  
-✔️ API documentation & testing – **100 ₾**  
-✔️ Data validation & error handling – **100 ₾**  
- **Full package starting from 600 ₾**
-
----
-
-## Notifications & Alert Systems
-
-Stay connected with real-time notifications across multiple platforms.
-
-✔️ Email notifications – **100 ₾**  
-✔️ SMS notifications – **150 ₾**  
-✔️ Slack/Telegram alerts – **50 ₾**  
-✔️ Webhook-based event triggers – **200 ₾**  
-✔️ Push notifications for mobile/web – **120 ₾**  
-✔️ Automated report generation – **100 ₾**  
- **Full package starting from 350 ₾**
+- ✅ Database & code optimization – **150 ₾**
+- ✅ Caching strategies (Redis, Memcached) – **100 ₾**
+- ✅ Frontend tuning (lazy loading, etc.) – **100 ₾**
+- ✅ Image compression & optimization – **80 ₾**
+- ✅ CDN setup & integration – **120 ₾**  
+  **🎯 Full package from 250 ₾**
 
 ---
 
-## Pre-Made Software Solutions
+## 🔗 System Integration & API Development
 
-Deploy ready-to-use solutions for streamlined business operations.
+Connect your systems like a pro with seamless and secure APIs.
 
-✔️ Neighborhood management system – **350 ₾**  
-✔️ Issue rating and reporting system – **350 ₾**  
-✔️ Website testing automation – **350 ₾**  
-✔️ Task management system – **300 ₾**  
-✔️ Inventory tracking system – **320 ₾**  
-**Full package starting from 700 ₾**
-
----
-
-## Kubernetes Setup & DevOps Consulting
-
-Automate deployments and optimize infrastructure.
-
-✔️ Kubernetes cluster setup – **400 ₾**  
-✔️ Deploy ready app on hosting – **200 ₾**  
-✔️ Deploy ready app on VPS – **100 ₾**  
-✔️ CI/CD pipeline setup – **300 ₾**  
-✔️ Infrastructure monitoring & logging – **200 ₾**  
- **Full package starting from 400 ₾**
+- 🔧 REST API development – **250 ₾**
+- 🧬 GraphQL API development – **250 ₾**
+- 🔌 3rd-party integrations (Stripe, PayPal, Twilio) – **200 ₾**
+- 🛡️ Security & authentication – **150 ₾**
+- 📘 API documentation & testing – **100 ₾**
+- 🧹 Data validation & error handling – **100 ₾**  
+  **🎯 Full package from 600 ₾**
 
 ---
 
-## Telegram Bot Development
+## 📣 Notifications & Alert Systems
 
-Automate business processes and customer engagement with custom Telegram bots.
+Real-time alerts that keep your team and users always in the loop.
 
-✔️ Custom bot creation & integrations – **200 ₾**  
-✔️ Webhooks & real-time command handling – **150 ₾**  
-✔️ Secure API connections – **150 ₾**  
-✔️ Bot hosting & maintenance – **100 ₾**  
-✔️ Database integration for bots – **120 ₾**  
- **Full package starting from 200 ₾**
-
----
-
-## Cloud & Server Management
-
-Deploy, maintain, and optimize cloud-based infrastructure for scalability and reliability.
-
-✔️ Server setup & security hardening – **250 ₾**  
-✔️ Load balancing & traffic optimization – **200 ₾**  
-✔️ Backup & disaster recovery planning – **200 ₾**  
-✔️ Server monitoring & alerting – **150 ₾**  
-✔️ SSL certificate installation & renewal – **100 ₾**  
- **Full package starting from 250 ₾**
+- 📧 Email notifications – **100 ₾**
+- 📱 SMS notifications – **150 ₾**
+- 💬 Slack/Telegram alerts – **50 ₾**
+- 🔔 Webhook event triggers – **200 ₾**
+- 📲 Push notifications (web/mobile) – **120 ₾**
+- 📊 Automated reporting – **100 ₾**  
+  **🎯 Full package from 350 ₾**
 
 ---
 
-## Custom Software Development
+## 💼 Pre-Made Software Solutions
 
-Tailored applications designed to meet your specific business needs.
+Deploy, customize, and go live with tested, ready-to-use platforms.
 
-✔️ Full-stack web development (Django, React) – **500+ ₾**  
-✔️ Secure authentication & scalable architecture – **300 ₾**  
-✔️ UX/UI enhancements & redesign – **250 ₾**  
-✔️ Custom database design & optimization – **200 ₾**  
- **Custom Quote (based on project scope)**
-
----
-
-## Chrome Extension Development
-
-Boost productivity with custom-built Chrome extensions.
-
-✔️ UI & feature development – **150 ₾**  
-✔️ API integrations & automation – **150 ₾**  
-✔️ Data synchronization & storage – **100 ₾**  
-✔️ User authentication & permissions – **120 ₾**  
- **Full package starting from 175 ₾**
+- 🏘️ Neighborhood management system – **350 ₾**
+- 🛠️ Issue rating & reporting system – **350 ₾**
+- 🧪 Website testing automation – **350 ₾**
+- ✅ Task management system – **300 ₾**
+- 📦 Inventory tracking system – **320 ₾**  
+  **🎯 Full package from 700 ₾**
 
 ---
 
-## Additional Services
+## 🐳 Kubernetes Setup & DevOps Consulting
 
-✔️ Python Telegram Bot Development – **250 ₾**  
-✔️ Hosting Python Service on Docker – **50 ₾**  
-✔️ n8n Self-Hosted Setup – **100 ₾**  
-✔️ Nginx Configuration & Optimization – **100 ₾**
+Ship faster. Deploy smarter. Automate everything.
+
+- ☸️ Kubernetes cluster setup – **400 ₾**
+- 🚀 App deployment on hosting – **200 ₾**
+- 💻 App deployment on VPS – **100 ₾**
+- 🔁 CI/CD pipeline setup – **300 ₾**
+- 📈 Monitoring & logging – **200 ₾**  
+  **🎯 Full package from 400 ₾**
 
 ---
 
-## Contact Me
+## 🤖 Telegram Bot Development
 
-Let's discuss your project! Reach out at **[Giorgi Beria](mailto:beria.giorgi1@gmail.com)**  
-or Telegram: **[Giorgi Beria](https://t.me/beria_giorgi)**  
-or Facebook: **[Giorgi Beria](https://www.facebook.com/gio.beria)**
+Let bots handle the repetitive stuff — securely, reliably, and smartly.
+
+- 🛠️ Custom bot & integrations – **200 ₾**
+- ⚡ Real-time command handling – **150 ₾**
+- 🔐 Secure API connections – **150 ₾**
+- 🧰 Hosting & maintenance – **100 ₾**
+- 🗃️ Database integration – **120 ₾**  
+  **🎯 Full package from 200 ₾**
+
+---
+
+## ☁️ Cloud & Server Management
+
+Reliable infrastructure from setup to scaling — stress-free.
+
+- 🔐 Server setup & hardening – **250 ₾**
+- ⚖️ Load balancing & optimization – **200 ₾**
+- 🧯 Backup & disaster recovery – **200 ₾**
+- 📡 Monitoring & alerting – **150 ₾**
+- 🔏 SSL setup & renewal – **100 ₾**  
+  **🎯 Full package from 250 ₾**
+
+---
+
+## 🧩 Custom Software Development
+
+Tailored solutions, built from scratch — exactly the way you need them.
+
+- 🌐 Full-stack web apps (Django + React) – **500+ ₾**
+- 🔒 Secure & scalable architecture – **300 ₾**
+- 🎨 UI/UX enhancements – **250 ₾**
+- 🧠 Custom database design – **200 ₾**  
+  **💬 Custom quote based on your project**
+
+---
+
+## 🧭 Chrome Extension Development
+
+Enhance workflows or launch your own productivity tool.
+
+- 🧑‍🎨 UI & feature development – **150 ₾**
+- 🔗 API integration & automation – **150 ₾**
+- 📂 Data storage & sync – **100 ₾**
+- 🔐 User authentication & access – **120 ₾**  
+  **🎯 Full package from 175 ₾**
+
+---
+
+## 🛠️ Additional Services
+
+- 🐍 Python Telegram Bot Development – **250 ₾**
+- 🐳 Hosting Python Service with Docker – **50 ₾**
+- 🔁 Self-Hosted n8n Setup – **100 ₾**
+- ⚙️ Nginx Configuration & Optimization – **100 ₾**
+
+---
+
+## 📞 Contact Me
+
+Let's make things happen. Reach out:
+
+- ✉️ [Giorgi Beria](mailto:beria.giorgi1@gmail.com)
+- 📱 [Telegram](https://t.me/beria_giorgi)
+- 👤 [Facebook](https://www.facebook.com/gio.beria)
+
+---
+
+> _Quality, efficiency, and clear communication — that’s what I bring to every project._
 
