@@ -16,12 +16,11 @@ operate smoother, and stay ahead of the curve.
 
 Supercharge your website's performance, SEO, and overall experience.
 
-- ✅ Database & code optimization – **150 ₾**
-- ✅ Caching strategies (Redis, Memcached) – **100 ₾**
-- ✅ Frontend tuning (lazy loading, etc.) – **100 ₾**
-- ✅ Image compression & optimization – **80 ₾**
-- ✅ CDN setup & integration – **120 ₾**  
-  **🎯 Full package from 250 ₾**
+- ✅ Database & code optimization – **150 $**
+- ✅ Caching strategies (Redis, Memcached) – **100 $**
+- ✅ Image compression & optimization – **80 $**
+- ✅ CDN setup & integration – **120 $**
+- 🎯 Full package from 250 $
 
 ---
 
@@ -29,13 +28,12 @@ Supercharge your website's performance, SEO, and overall experience.
 
 Connect your systems like a pro with seamless and secure APIs.
 
-- 🔧 REST API development – **250 ₾**
-- 🧬 GraphQL API development – **250 ₾**
-- 🔌 3rd-party integrations (Stripe, PayPal, Twilio) – **200 ₾**
-- 🛡️ Security & authentication – **150 ₾**
-- 📘 API documentation & testing – **100 ₾**
-- 🧹 Data validation & error handling – **100 ₾**  
-  **🎯 Full package from 600 ₾**
+- 🔧 REST API development – **250 $**
+- 🔌 3rd-party integrations (Keepz) – **400 $**
+- 🛡️ Security & authentication – **150 $**
+- 📘 API documentation & testing – **100 $**
+- 🧹 Data validation & error handling – **100 $**
+- 🎯 Full package from 600 $
 
 ---
 
@@ -43,13 +41,11 @@ Connect your systems like a pro with seamless and secure APIs.
 
 Real-time alerts that keep your team and users always in the loop.
 
-- 📧 Email notifications – **100 ₾**
-- 📱 SMS notifications – **150 ₾**
-- 💬 Slack/Telegram alerts – **50 ₾**
-- 🔔 Webhook event triggers – **200 ₾**
-- 📲 Push notifications (web/mobile) – **120 ₾**
-- 📊 Automated reporting – **100 ₾**  
-  **🎯 Full package from 350 ₾**
+- 📧 Email notifications – **100 $**
+- 📱 SMS notifications – **150 $**
+- 💬 Slack/Telegram alerts – **50 $**
+- 📊 Automated reporting – **100 $**
+- 🎯 Full package from 350 $
 
 ---
 
@@ -57,12 +53,9 @@ Real-time alerts that keep your team and users always in the loop.
 
 Deploy, customize, and go live with tested, ready-to-use platforms.
 
-- 🏘️ Neighborhood management system – **350 ₾**
-- 🛠️ Issue rating & reporting system – **350 ₾**
-- 🧪 Website testing automation – **350 ₾**
-- ✅ Task management system – **300 ₾**
-- 📦 Inventory tracking system – **320 ₾**  
-  **🎯 Full package from 700 ₾**
+- 🏘️ Neighborhood management system – **350 $**
+- Telegram Support Bot **90 $ **
+- 🎯 Full package from 700 $
 
 ---
 
@@ -70,25 +63,19 @@ Deploy, customize, and go live with tested, ready-to-use platforms.
 
 Ship faster. Deploy smarter. Automate everything.
 
-- ☸️ Kubernetes cluster setup – **400 ₾**
-- 🚀 App deployment on hosting – **200 ₾**
-- 💻 App deployment on VPS – **100 ₾**
-- 🔁 CI/CD pipeline setup – **300 ₾**
-- 📈 Monitoring & logging – **200 ₾**  
-  **🎯 Full package from 400 ₾**
+- ☸️ Kubernetes cluster setup – **400 $**
+- 🚀 App deployment on hosting – **200 $**
+- 💻 App deployment on VPS – **100 $**
+- 📈 Monitoring & logging – **200 $**
+- 🎯 Full package from 400 $
 
 ---
+## 🔐 Various
 
-## 🤖 Telegram Bot Development
-
-Let bots handle the repetitive stuff — securely, reliably, and smartly.
-
-- 🛠️ Custom bot & integrations – **200 ₾**
-- ⚡ Real-time command handling – **150 ₾**
-- 🔐 Secure API connections – **150 ₾**
-- 🧰 Hosting & maintenance – **100 ₾**
-- 🗃️ Database integration – **120 ₾**  
-  **🎯 Full package from 200 ₾**
+- 🛠️ Custom bot & integrations – **200 $**
+- 🧰 Hosting & maintenance – **100 $**
+- 🗃️ Database integration – **120 $**  
+  **🎯 Full package from 200 $**
 
 ---
 
@@ -96,12 +83,12 @@ Let bots handle the repetitive stuff — securely, reliably, and smartly.
 
 Reliable infrastructure from setup to scaling — stress-free.
 
-- 🔐 Server setup & hardening – **250 ₾**
-- ⚖️ Load balancing & optimization – **200 ₾**
-- 🧯 Backup & disaster recovery – **200 ₾**
-- 📡 Monitoring & alerting – **150 ₾**
-- 🔏 SSL setup & renewal – **100 ₾**  
-  **🎯 Full package from 250 ₾**
+- 🔐 Server setup & hardening – **250 $**
+- ⚖️ Load balancing & optimization – **200 $**
+- 🧯 Backup & disaster recovery – **200 $**
+- 📡 Monitoring & alerting – **150 $**
+- 🔏 SSL setup & renewal – **100 $**  
+  **🎯 Full package from 250 $**
 
 ---
 
@@ -109,10 +96,10 @@ Reliable infrastructure from setup to scaling — stress-free.
 
 Tailored solutions, built from scratch — exactly the way you need them.
 
-- 🌐 Full-stack web apps (Django + React) – **500+ ₾**
-- 🔒 Secure & scalable architecture – **300 ₾**
-- 🎨 UI/UX enhancements – **250 ₾**
-- 🧠 Custom database design – **200 ₾**  
+- 🌐 Full-stack web apps (Django + React) – **500+ $**
+- 🔒 Secure & scalable architecture – **300 $**
+- 🎨 UI/UX enhancements – **250 $**
+- 🧠 Custom database design – **200 $**  
   **💬 Custom quote based on your project**
 
 ---
@@ -121,20 +108,20 @@ Tailored solutions, built from scratch — exactly the way you need them.
 
 Enhance workflows or launch your own productivity tool.
 
-- 🧑‍🎨 UI & feature development – **150 ₾**
-- 🔗 API integration & automation – **150 ₾**
-- 📂 Data storage & sync – **100 ₾**
-- 🔐 User authentication & access – **120 ₾**  
-  **🎯 Full package from 175 ₾**
+- 🧑‍🎨 UI & feature development – **150 $**
+- 🔗 API integration & automation – **150 $**
+- 📂 Data storage & sync – **100 $**
+- 🔐 User authentication & access – **120 $**  
+  **🎯 Full package from 175 $**
 
 ---
 
 ## 🛠️ Additional Services
 
-- 🐍 Python Telegram Bot Development – **250 ₾**
-- 🐳 Hosting Python Service with Docker – **50 ₾**
-- 🔁 Self-Hosted n8n Setup – **100 ₾**
-- ⚙️ Nginx Configuration & Optimization – **100 ₾**
+- 🐍 Python Telegram Bot Development – **250 $**
+- 🐳 Hosting Python Service with Docker – **50 $**
+- 🔁 Self-Hosted n8n Setup – **100 $**
+- ⚙️ Nginx Configuration & Optimization – **100 $**
 
 ---
 
