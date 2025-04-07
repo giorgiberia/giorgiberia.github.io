@@ -1,0 +1,20 @@
+.homepage-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.home-button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    flex: 1 1 auto;
+    text-align: center;
+    max-width: 150px;
+}

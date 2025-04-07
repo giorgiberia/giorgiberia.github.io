@@ -4,3 +4,10 @@
 
 layout: home
 ---
+
+<div class="homepage-buttons">
+  <a href="/page1" class="home-button">Page 1</a>
+  <a href="/page2" class="home-button">Page 2</a>
+  <a href="/page3" class="home-button">Page 3</a>
+  <a href="/page4" class="home-button">Page 4</a>
+</div>
