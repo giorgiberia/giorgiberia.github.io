@@ -6,62 +6,56 @@ permalink: /about/
 
 # 👋 About Me
 
-**This is Giorgi.**  
-A Dedicated Python Developer & DevOps Enthusiast — proudly based in Batumi, Georgia 🇬🇪
+**I’m Giorgi — a Python Developer, DevOps Enthusiast & Mobile Engineer**  
+Based in Batumi, Georgia 🇬🇪
 
 ---
 
-Welcome to my corner of the web! I'm Giorgi — a Python software developer with a growing focus on **DevOps** and a deep
-passion for building smart, scalable, and efficient systems.
+Welcome to my corner of the web! I’m a software engineer passionate about building **scalable systems**, automating workflows, and delivering solutions that actually make an impact. My career sits at the intersection of **backend engineering, DevOps**, and **mobile development**.
 
 ### 🧠 What I Do
 
-- 🐍 **Python Development** – with a strong focus on **backend** using Django
-- ☸️ **DevOps Practices** – especially **Docker** & **Kubernetes** for smoother deployments
-- 🔄 **Automation & APIs** – because life’s too short to do things manually
-- 🛠️ **Problem-Solving** – because code is just puzzle-solving with coffee
+- 🐍 **Python Backend Development** – Django & Django REST Framework
+- ☸️ **DevOps Practices** – Docker & Kubernetes for cloud-ready deployments
+- 🔄 **Automation & APIs** – turning repetitive tasks into streamlined pipelines
+- 📱 **Mobile Apps** – React Native & TypeScript, powered by the same backends I build
+- 🛠️ **Problem-Solving Mindset** – designing systems that are clean, maintainable, and reliable
 
-I'm a **mid-level developer** with hands-on experience, self-taught grit, and an unshakable curiosity. My mission? Build
-clean, maintainable systems that work like magic — but are built like clockwork.
+I bring a **mid-level developer’s expertise** combined with self-taught grit and constant curiosity. My mission? Build products that work like magic — but are engineered with discipline.
 
 ---
 
 ### 🧗‍♂️ My Journey
 
-I began my tech path out of sheer curiosity — what started as Python scripts soon became full-scale web apps, DevOps
-pipelines, and even some production-grade bots. Over time, I moved from just writing code to **thinking in systems**,
-diving deep into architecture, cloud, and infrastructure optimization.
+I started by writing simple Python scripts — which quickly evolved into **full-stack web apps**, **DevOps pipelines**, and **production-grade bots**. Over time, I shifted from just “coding features” to **thinking in systems**: architecture, infrastructure, automation, and now **cross-platform mobile apps**.
 
-Some technologies I’m actively working with:
+Technologies I’m actively working with:
 
-- Django / DRF, Celery
-- PostgreSQL,Mysql,Redis
-- Docker, Kubernetes
-- GitHub Actions, CI/CD
-- Nginx, systemd, Ubuntu servers
-- Telegram bots & Chrome extensions
-- And a **daily obsession with writing better code**
+- **Backend & Services**: Python, Django / DRF, Celery
+- **Databases & Caching**: PostgreSQL, MySQL, Redis
+- **DevOps**: Docker, Kubernetes, CI/CD (GitHub Actions, GitLab CI)
+- **Servers & Infra**: Nginx, systemd, Ubuntu servers
+- **Mobile & Frontend**: React Native, Expo, TypeScript, React.js
+- **Other**: Telegram bots, Chrome extensions, microservices
 
 ---
 
-### 🧩 A Bit More Human
+### 🧩 Beyond Code
 
-When I’m not neck-deep in code or YAML configs, you’ll find me:
+When I’m not solving technical puzzles, you’ll probably find me:
 
-- 🏓 Beating friends in **table tennis**
-- 🎱 Calculating angles in **billiards**
-- 💡 Exploring new tech stacks just for fun
-- ❤️ Spending time with my **brilliant wife**
+- 🏓 Playing **table tennis** (and winning more often than not)
+- 🎱 Lining up the perfect shot in **billiards**
+- 💡 Exploring new technologies “just because”
+- ❤️ Spending quality time with my **amazing wife**
 
-I believe in continuous growth — both professionally and personally. I'm building a future I can be proud of — with
-clean code, shared knowledge, and meaningful work.
+I believe in continuous growth — professionally and personally. Clean code, shared knowledge, and meaningful projects are what drive me.
 
 ---
 
 ### 📬 Let’s Connect
 
-Whether you're looking to **collaborate**, need help on a project, or just want to geek out over Python or DevOps, feel
-free to reach out:
+If you’d like to **collaborate**, discuss **Python/DevOps/mobile projects**, or just geek out over architecture and automation, let’s connect:
 
 - 📧 [beria.giorgi1@gmail.com](mailto:beria.giorgi1@gmail.com)
 - 💬 [Telegram](https://t.me/beria_giorgi)
@@ -71,5 +65,4 @@ free to reach out:
 
 > _“Code is craft. Systems are art. Build both like they matter.”_
 
-Let’s create something great — one deploy at a time. 🚀
-
+Let’s create something great — one deploy (or mobile build) at a time. 🚀
