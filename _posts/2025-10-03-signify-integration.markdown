@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Streamlining Document Workflows with Signify Integration"
-date: 2025-10-03 09:00:00 +0400
+date: 2025-09-27 09:00:00 +0400
 categories: blog
 ---
 
