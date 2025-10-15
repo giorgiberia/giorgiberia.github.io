@@ -31,6 +31,6 @@ categories: blog
 If you’d like a walkthrough or deployment notes for your VPS stack, reach out. I’m happy to help you go from zero to
 chatting fast.
 
-![img.png](../img/chat_screenshot.png)
+![img.png](/img/blog/chat_screenshot.png)
 
 #WebSocket #Realtime #SelfHosted #Django #VPS #RBAC #Security
