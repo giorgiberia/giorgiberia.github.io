@@ -28,3 +28,5 @@ A digital-first, resident-centered way to keep the building running well.
 If you want a clearer, more connected building experience, I’d love to help bring NMS to your community. Comment or DM to get started.
 
 #Neighbors #CommunityExperience #BuildingLife #PropTech #ResidentApp
+
+![nms.png](/img/blog/nms.png)

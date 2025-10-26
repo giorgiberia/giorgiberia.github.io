@@ -26,3 +26,6 @@ Built for modern teams
 If you’re scaling a customer success or growth team and tired of duct-taping point solutions, MiniCrm delivers clarity, automation, and control in one elegant package.
 Curious to see it in action? I can share a walkthrough or help you try it with your campaigns.
 #CustomerEngagement #GrowthMarketing #SaaS #ProductUpdate #MiniCrm #CRM #SMSMarketing #EmailMarketing #React #Vite #Django
+
+![minicrm.jpg](/img/blog/minicrm.jpg)
+
