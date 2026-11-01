@@ -7,121 +7,157 @@ permalink: /services/
 # 🚀 Services
 
 Welcome to the **Services** page — where innovation meets execution.  
-I provide expert solutions in **Python development**, **DevOps**, and **automation**, helping businesses scale faster,
-operate smoother, and stay ahead of the curve.
+I provide expert solutions in **Python backend development**, **React Native & Expo mobile apps**, **DevOps**, and
+**automation**, helping businesses scale faster, operate smoother, and stay ahead of the curve.
 
 ---
 
-## ⚡ Website Optimization & Performance Tuning
+## 🐍 Python Backend & API Development
 
-Supercharge your website's performance, SEO, and overall experience.
+Build secure, scalable Python backends and APIs that connect your systems.
 
-- ✅ Database & code optimization – **150 $**
-- ✅ Caching strategies (Redis, Memcached) – **100 $**
-- ✅ Image compression & optimization – **80 $**
-- ✅ CDN setup & integration – **120 $**
-- 🎯 Full package from 250 $
-
----
-
-## 🔗 System Integration & API Development
-
-Connect your systems like a pro with seamless and secure APIs.
-
-- 🔧 REST API development – **250 $**
-- 🔌 3rd-party integrations (Keepz) – **400 $**
-- 🛡️ Security & authentication – **150 $**
-- 📘 API documentation & testing – **100 $**
-- 🧹 Data validation & error handling – **100 $**
-- 🎯 Full package from 600 $
+- 🔧 Python backend & REST API development
+- 🛡️ Security & authentication
+- 📘 API documentation & testing
+- 🧹 Data validation & error handling
+- 🗃️ Database integration
 
 ---
 
-## 📣 Notifications & Alert Systems
+## 📱 React Native & Expo Mobile App Development
 
-Real-time alerts that keep your team and users always in the loop.
+**Recommended core service** — bring your mobile app to life on iOS and Android.
 
-- 📧 Email notifications – **100 $**
-- 📱 SMS notifications – **150 $**
-- 💬 Slack/Telegram alerts – **50 $**
-- 📊 Automated reporting – **100 $**
-- 🎯 Full package from 350 $
-
----
-
-## 💼 Pre-Made Software Solutions
-
-Deploy, customize, and go live with tested, ready-to-use platforms.
-
-- 🏘️ Neighborhood management system – **350 $**
-- Telegram Support Bot **90 $ **
-- 🎯 Full package from 700 $
+- 📱 Cross-platform iOS & Android development
+- ⚛️ React Native & Expo
+- 🔗 REST API & backend integration
+- 🔔 Push notifications
+- 🔥 Firebase integration
+- 🔐 Authentication & user management
+- 🚀 App Store & Google Play publishing
 
 ---
 
-## 🐳 Kubernetes Setup & DevOps Consulting
+## 🐳 Linux, Docker & DevOps
 
 Ship faster. Deploy smarter. Automate everything.
 
-- ☸️ Kubernetes cluster setup – **400 $**
-- 🚀 App deployment on hosting – **200 $**
-- 💻 App deployment on VPS – **100 $**
-- 📈 Monitoring & logging – **200 $**
-- 🎯 Full package from 400 $
-
----
-## 🔐 Various
-
-- 🛠️ Custom bot & integrations – **200 $**
-- 🧰 Hosting & maintenance – **100 $**
-- 🗃️ Database integration – **120 $**  
-  **🎯 Full package from 200 $**
+- 🐧 Linux server setup & management
+- 🐳 Docker deployment & hosting for Python services
+- ☸️ Kubernetes cluster setup & DevOps consulting
+- 🚀 App deployment on hosting
+- 💻 App deployment on VPS
+- ⚙️ Nginx configuration & optimization
+- 📈 Monitoring & logging
 
 ---
 
-## ☁️ Cloud & Server Management
+## 🔁 n8n Automation & AI Integration
+
+Connect your tools and automate repetitive work with n8n workflows and AI integration.
+
+- 🔁 Self-hosted n8n setup
+- ⚙️ Workflow automation
+- 🧠 AI integration into business workflows
+- 🔗 API & service integration
+
+---
+
+## 🔗 Payment & Third-Party Integrations
+
+Connect payment providers and external services to your applications.
+
+- 💳 Payment integration (Keepz)
+- 🔌 Third-party system & API integrations
+- 🛡️ Secure authentication between services
+- 🧹 Data validation & error handling
+
+---
+
+## ⚡ Website Performance Optimization
+
+Supercharge your website's performance, SEO, and overall experience.
+
+- ✅ Database & code optimization
+- ✅ Caching strategies (Redis, Memcached)
+- ✅ Image compression & optimization
+- ✅ CDN setup & integration
+
+---
+
+## 🛠️ Additional Capabilities
+
+### 📣 Notifications & Alert Systems
+
+Real-time alerts that keep your team and users always in the loop.
+
+- 📧 Email notifications
+- 📱 SMS notifications
+- 💬 Slack/Telegram alerts
+- 📊 Automated reporting
+
+---
+
+### 💼 Pre-Made Software Solutions
+
+Deploy, customize, and go live with tested, ready-to-use platforms.
+
+- 🛍️ **Retail POS & Inventory Management System** — a platform for retail businesses with a cashier cart and sales workflow, product & stock management, customer records & purchase history, searchable sales history & reporting, product CSV imports & catalog exports, staff accounts with separate cashier/admin screens, and a backend API for integrations. Records cash, card, and bank transfer payments; payment processing is not included.
+
+  Adaptable to different retail businesses and product catalogs. Currently uses milliliters for pricing & stock and GEL as its currency; other units or currencies require changes.
+
+- Telegram Support Bot
+
+---
+
+### 🔐 Various
+
+- 🛠️ Custom bot & integrations
+- 🧰 Hosting & maintenance
+- 🗃️ Database integration
+
+---
+
+### ☁️ Cloud & Server Management
 
 Reliable infrastructure from setup to scaling — stress-free.
 
-- 🔐 Server setup & hardening – **250 $**
-- ⚖️ Load balancing & optimization – **200 $**
-- 🧯 Backup & disaster recovery – **200 $**
-- 📡 Monitoring & alerting – **150 $**
-- 🔏 SSL setup & renewal – **100 $**  
-  **🎯 Full package from 250 $**
+- 🔐 Server setup & hardening
+- ⚖️ Load balancing & optimization
+- 🧯 Backup & disaster recovery
+- 📡 Monitoring & alerting
+- 🔏 SSL setup & renewal
 
 ---
 
-## 🧩 Custom Software Development
+### 🧩 Custom Software Development
 
 Tailored solutions, built from scratch — exactly the way you need them.
 
-- 🌐 Full-stack web apps (Django + React) – **500+ $**
-- 🔒 Secure & scalable architecture – **300 $**
-- 🎨 UI/UX enhancements – **250 $**
-- 🧠 Custom database design – **200 $**  
-  **💬 Custom quote based on your project**
+- 🌐 Full-stack web apps (Django + React)
+- 🔒 Secure & scalable architecture
+- 🎨 UI/UX enhancements
+- 🧠 Custom database design
 
 ---
 
-## 🧭 Chrome Extension Development
+### 🧭 Chrome Extension Development
 
 Enhance workflows or launch your own productivity tool.
 
-- 🧑‍🎨 UI & feature development – **150 $**
-- 🔗 API integration & automation – **150 $**
-- 📂 Data storage & sync – **100 $**
-- 🔐 User authentication & access – **120 $**  
-  **🎯 Full package from 175 $**
+- 🧑‍🎨 UI & feature development
+- 🔗 API integration & automation
+- 📂 Data storage & sync
+- 🔐 User authentication & access
 
 ---
 
-## 🛠️ Additional Services
+### 🛠️ Additional Services
 
-- 🐍 Python Telegram Bot Development – **250 $**
-- 🐳 Hosting Python Service with Docker – **50 $**
-- 🔁 Self-Hosted n8n Setup – **100 $**
-- ⚙️ Nginx Configuration & Optimization – **100 $**
+- 🐍 Python Telegram Bot Development
+- 🐳 Hosting Python Service with Docker
+- 🔁 Self-Hosted n8n Setup
+- ⚙️ Nginx Configuration & Optimization
 
 ---
 
@@ -136,4 +172,3 @@ Let's make things happen. Reach out:
 ---
 
 > _Quality, efficiency, and clear communication — that’s what I bring to every project._
-
