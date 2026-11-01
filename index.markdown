@@ -11,3 +11,5 @@ layout: home
   <a href="/experience" style="background: #007acc; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; flex: 1 1 auto; max-width: 150px;">experience</a>
   <a href="/projects" style="background: #007acc; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; text-align: center; flex: 1 1 auto; max-width: 150px;">projects</a>
 </div>
+
+Visit my main website at [giorgiberia.com](https://giorgiberia.com/) for more about my work and services.

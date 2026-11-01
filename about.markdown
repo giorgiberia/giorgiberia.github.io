@@ -58,6 +58,7 @@ I believe in continuous growth — professionally and personally. Clean code, sh
 If you’d like to **collaborate**, discuss **Python/DevOps/mobile projects**, or just geek out over architecture and automation, let’s connect:
 
 - 📧 [beria.giorgi1@gmail.com](mailto:beria.giorgi1@gmail.com)
+- 🌐 [giorgiberia.com](https://giorgiberia.com/)
 - 💬 [Telegram](https://t.me/beria_giorgi)
 - 👤 [Facebook](https://www.facebook.com/gio.beria)
 

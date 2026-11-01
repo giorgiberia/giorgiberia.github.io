@@ -9,6 +9,8 @@ permalink: /projects/
 Applications I've built or contributed to across mobile development, Python backend systems, enterprise software,
 hardware integration, OCR, and business automation.
 
+Visit my main website at [giorgiberia.com](https://giorgiberia.com/) to discuss a project or learn about my services.
+
 ---
 
 ## 📱 NeighbourDesk

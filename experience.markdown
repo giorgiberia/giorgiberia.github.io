@@ -92,6 +92,7 @@ See my [projects](/projects/) for examples of these capabilities in practice.
 Feel free to reach out for collaboration, project inquiries, or a tech chat:
 
 - 📧 [beria.giorgi1@gmail.com](mailto:beria.giorgi1@gmail.com)
+- 🌐 [giorgiberia.com](https://giorgiberia.com/)
 - 💬 [Telegram](https://t.me/beria_giorgi)
 - 👤 [Facebook](https://www.facebook.com/gio.beria)
 
