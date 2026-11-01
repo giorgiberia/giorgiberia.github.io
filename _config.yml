@@ -30,6 +30,12 @@ google_analytics: G-ED3S3ZCGBV
 
 # Build settings
 theme: minima
+header_pages:
+  - about.markdown
+  - experience.markdown
+  - privacy-policy.markdown
+  - projects.markdown
+  - services.markdown
 plugins:
   - jekyll-feed
 
